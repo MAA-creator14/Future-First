@@ -1,30 +1,45 @@
 {
   "expo": {
-    "name": "future-first",
+    "name": "Future First",
     "slug": "future-first",
     "version": "1.0.0",
+    "scheme": "futurefirst",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.futurefirst.app"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FF6B6B"
       },
-      "predictiveBackGestureEnabled": false
+      "edgeToEdgeEnabled": true,
+      "package": "com.futurefirst.app"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FF6B6B",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }

@@ -1,0 +1,1523 @@
+[
+  {
+    "id": "software-engineer",
+    "title": "Software Engineer",
+    "cluster": "stem",
+    "emoji": "💻",
+    "color": "#00B4D8",
+    "one_liner": "Build the apps, websites, and systems that run the modern world",
+    "what_is_it": "Software engineers design and write code that creates digital products — mobile apps, websites, video games, AI systems, medical tools, and more. You solve real problems by turning ideas into working software. It's one of the fastest-growing, highest-paid careers globally, with opportunities in every industry from healthcare to music.",
+    "day_in_the_life": "You start by checking your team's task board to see what feature you're building today — a new search filter for a shopping app. You write code in Python for a couple of hours, then join a 20-minute team standup call. After lunch you hit a tricky bug and spend an hour tracking it down (satisfying when you fix it!). Later you review a teammate's code and suggest improvements. You deploy the feature to the test server before logging off.",
+    "interest_tags": ["technology", "science"],
+    "skill_tags": ["problem_solving", "technical", "creativity"],
+    "routes_in": [
+      {
+        "label": "A-Levels / Abitur + University Degree",
+        "description": "Maths and Computer Science at school, then a BSc in Computer Science or Software Engineering. Main route in UK and Europe.",
+        "years": "4–5 years",
+        "typical_subjects": ["Computer Science", "Maths", "Physics"]
+      },
+      {
+        "label": "US: High School + College",
+        "description": "Strong SAT/ACT scores in Maths. CS degree at a 4-year college, or an associate's degree + bootcamp.",
+        "years": "2–4 years",
+        "typical_subjects": ["AP Computer Science", "AP Calculus", "Physics"]
+      },
+      {
+        "label": "Bootcamp",
+        "description": "Intensive 3–6 month coding bootcamps (Makers Academy, Le Wagon, General Assembly) can fast-track you into junior roles.",
+        "years": "3–6 months"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$70,000–$95,000",
+      "experienced_usd": "$130,000–$200,000+",
+      "entry_eur": "€35,000–€55,000",
+      "experienced_eur": "€70,000–€120,000",
+      "source": "Stack Overflow Developer Survey 2024 / levels.fyi"
+    },
+    "try_it": [
+      "Start the free CS50 course on edX — widely considered the best intro to coding anywhere",
+      "Build a simple website using freeCodeCamp's HTML/CSS curriculum (free, online)",
+      "Download Scratch and build a simple game to understand logic and loops",
+      "Join a school coding club or look up your nearest CoderDojo"
+    ],
+    "related_career_ids": ["data-scientist", "game-designer", "cybersecurity-analyst"],
+    "tags": ["remote-friendly", "high-demand", "global"]
+  },
+  {
+    "id": "data-scientist",
+    "title": "Data Scientist",
+    "cluster": "stem",
+    "emoji": "📊",
+    "color": "#00B4D8",
+    "one_liner": "Turn raw data into insights that drive decisions at the world's biggest organisations",
+    "what_is_it": "Data scientists collect, clean, and analyse huge datasets to find patterns and answer business questions. You use statistics, programming (Python, R), and machine learning to help companies understand their customers, predict trends, or solve complex problems. Data science sits at the intersection of maths, computing, and critical thinking.",
+    "day_in_the_life": "You download a dataset of 2 million customer transactions and write Python code to clean it — removing duplicates, fixing errors. Then you build a model to predict which customers are likely to cancel their subscription. You create visualisations that turn your findings into a story your non-technical colleagues can understand, then present your results to the marketing team.",
+    "interest_tags": ["technology", "science", "business"],
+    "skill_tags": ["problem_solving", "technical", "detail_oriented"],
+    "routes_in": [
+      {
+        "label": "University: Maths, Statistics or Computer Science",
+        "description": "A degree in Mathematics, Statistics, or Computer Science is the classic route. Many data scientists also come from Physics or Economics.",
+        "years": "3–4 years",
+        "typical_subjects": ["Maths", "Statistics", "Computer Science"]
+      },
+      {
+        "label": "US: College + Grad School",
+        "description": "A BS in a quantitative field followed by a master's in Data Science or Analytics opens doors to top roles.",
+        "years": "5–6 years"
+      },
+      {
+        "label": "Online Bootcamp / Self-taught",
+        "description": "Specialised data science bootcamps and platforms like Coursera, DataCamp, and Kaggle competitions can build the portfolio you need.",
+        "years": "6–12 months"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$75,000–$100,000",
+      "experienced_usd": "$140,000–$220,000",
+      "entry_eur": "€38,000–€58,000",
+      "experienced_eur": "€75,000–€130,000",
+      "source": "LinkedIn Salary Insights 2024 / Glassdoor"
+    },
+    "try_it": [
+      "Create a free Kaggle account and try their 30-day intro to machine learning course",
+      "Analyse your music listening history using Spotify's data export — look for patterns",
+      "Watch '3Blue1Brown' on YouTube to understand statistics visually",
+      "Learn Python basics on Codecademy (free tier available)"
+    ],
+    "related_career_ids": ["software-engineer", "financial-analyst", "biomedical-engineer"],
+    "tags": ["remote-friendly", "high-demand", "analytical"]
+  },
+  {
+    "id": "mechanical-engineer",
+    "title": "Mechanical Engineer",
+    "cluster": "stem",
+    "emoji": "⚙️",
+    "color": "#00B4D8",
+    "one_liner": "Design and build the physical machines and systems that power our world",
+    "what_is_it": "Mechanical engineers design, analyse, and manufacture mechanical systems — from car engines and wind turbines to medical devices and industrial robots. You apply physics, maths, and materials science to solve real-world problems. It's one of the broadest engineering disciplines, with jobs across automotive, aerospace, energy, construction, and more.",
+    "day_in_the_life": "You start by reviewing CAD designs for a new electric vehicle battery housing. Using simulation software, you run stress tests to see where the design might fail. You meet with the manufacturing team to discuss production tolerances, then attend a project review where you present your analysis. In the afternoon you work on a technical report and respond to supplier queries about material specifications.",
+    "interest_tags": ["science", "technology", "nature"],
+    "skill_tags": ["problem_solving", "technical", "detail_oriented"],
+    "routes_in": [
+      {
+        "label": "A-Levels / Bac + Engineering Degree",
+        "description": "Maths and Physics at A-Level or equivalent, followed by a BEng or MEng in Mechanical Engineering.",
+        "years": "3–5 years",
+        "typical_subjects": ["Maths", "Physics", "Design Technology"]
+      },
+      {
+        "label": "US: STEM High School + Engineering College",
+        "description": "Strong performance in AP Maths and AP Physics, then a 4-year ABET-accredited engineering degree.",
+        "years": "4 years",
+        "typical_subjects": ["AP Physics", "AP Calculus", "AP Chemistry"]
+      },
+      {
+        "label": "Degree Apprenticeship (UK/EU)",
+        "description": "Major manufacturers like Rolls-Royce, BMW, and Siemens offer degree-level engineering apprenticeships — earn while you learn.",
+        "years": "4–5 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$65,000–$80,000",
+      "experienced_usd": "$100,000–$150,000",
+      "entry_eur": "€32,000–€48,000",
+      "experienced_eur": "€60,000–€95,000",
+      "source": "Bureau of Labor Statistics 2024 / Stepstone EU"
+    },
+    "try_it": [
+      "Download free CAD software like Tinkercad and design a simple object",
+      "Build a LEGO Technic set and study how gears and mechanisms work",
+      "Watch the Engineering Explained YouTube channel for real-world mechanics",
+      "Enter your school's engineering or STEM challenge competition"
+    ],
+    "related_career_ids": ["aerospace-engineer", "civil-engineer", "biomedical-engineer"],
+    "tags": ["hands-on", "global", "industry-wide"]
+  },
+  {
+    "id": "biomedical-engineer",
+    "title": "Biomedical Engineer",
+    "cluster": "stem",
+    "emoji": "🔬",
+    "color": "#00B4D8",
+    "one_liner": "Design medical devices and technologies that save and improve lives",
+    "what_is_it": "Biomedical engineers apply engineering principles to medicine and biology. You might design prosthetic limbs, develop MRI machines, create diagnostic software, or work on lab-on-a-chip technologies. It's a field where engineering and healthcare intersect — one of the fastest-growing areas as healthcare becomes increasingly technology-driven.",
+    "day_in_the_life": "You're working on a new wearable glucose monitor for people with diabetes. Today you test a prototype sensor's accuracy in the lab, comparing it against a clinical standard. You document your findings, then have a meeting with the clinical team at the nearby hospital to get feedback from nurses. In the afternoon you revise your design drawings in response to their input.",
+    "interest_tags": ["science", "health", "technology"],
+    "skill_tags": ["problem_solving", "technical", "detail_oriented"],
+    "routes_in": [
+      {
+        "label": "University: Biomedical Engineering Degree",
+        "description": "A direct BEng or MEng in Biomedical Engineering. Biology, Chemistry and Maths at A-Level are typical entry requirements.",
+        "years": "3–5 years",
+        "typical_subjects": ["Biology", "Chemistry", "Maths", "Physics"]
+      },
+      {
+        "label": "US: Pre-med or Engineering Track",
+        "description": "A 4-year BS in Biomedical Engineering or Biological Sciences with engineering minors. Many go on to an MS.",
+        "years": "4–6 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$65,000–$82,000",
+      "experienced_usd": "$110,000–$165,000",
+      "entry_eur": "€33,000–€50,000",
+      "experienced_eur": "€65,000–€100,000",
+      "source": "BLS Occupational Outlook Handbook 2024"
+    },
+    "try_it": [
+      "Watch TED-Med talks about medical technology innovation",
+      "Do a biology and physics deep-dive on Khan Academy",
+      "Look up open-source medical device projects on GitHub",
+      "Contact a local university biomedical lab about shadowing or visiting"
+    ],
+    "related_career_ids": ["doctor", "mechanical-engineer", "data-scientist"],
+    "tags": ["impact-driven", "lab-work", "high-growth"]
+  },
+  {
+    "id": "aerospace-engineer",
+    "title": "Aerospace Engineer",
+    "cluster": "stem",
+    "emoji": "🚀",
+    "color": "#00B4D8",
+    "one_liner": "Design aircraft, spacecraft, and the systems that take humanity beyond Earth",
+    "what_is_it": "Aerospace engineers design and test aircraft, satellites, rockets, and spacecraft. You work on everything from commercial aeroplanes and military jets to satellites and Mars rovers. The field is split between aeronautics (aircraft in Earth's atmosphere) and astronautics (spacecraft beyond). It demands a deep understanding of physics, materials, and systems engineering.",
+    "day_in_the_life": "You're working on a satellite antenna deployment mechanism. This morning you run computer simulations of the deployment sequence in microgravity. After a team review meeting, you spend the afternoon in the clean room observing a physical test of the mechanism. You write up test results and flag a potential issue with the hinge tolerance to the lead engineer.",
+    "interest_tags": ["science", "technology"],
+    "skill_tags": ["problem_solving", "technical", "detail_oriented"],
+    "routes_in": [
+      {
+        "label": "A-Levels / Bac + Aerospace Engineering Degree",
+        "description": "Maths, Physics (essential) and sometimes Chemistry at A-Level, followed by a BEng or MEng in Aerospace Engineering.",
+        "years": "4–5 years",
+        "typical_subjects": ["Maths", "Physics", "Further Maths"]
+      },
+      {
+        "label": "US: Engineering College + NASA/Industry Internships",
+        "description": "BS in Aerospace or Mechanical Engineering. Internships at NASA, SpaceX, Boeing, or Lockheed Martin are the career-defining move.",
+        "years": "4 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$70,000–$90,000",
+      "experienced_usd": "$120,000–$175,000",
+      "entry_eur": "€35,000–€52,000",
+      "experienced_eur": "€70,000–€110,000",
+      "source": "BLS Occupational Outlook Handbook 2024 / Airbus HR data"
+    },
+    "try_it": [
+      "Build and launch a model rocket with an Estes starter kit",
+      "Play Kerbal Space Program to understand orbital mechanics through simulation",
+      "Follow SpaceX, ESA, and NASA on social media — they post incredible behind-the-scenes content",
+      "Watch Scott Manley on YouTube for accessible aerospace and space engineering explainers"
+    ],
+    "related_career_ids": ["mechanical-engineer", "software-engineer", "data-scientist"],
+    "tags": ["high-impact", "specialised", "global"]
+  },
+  {
+    "id": "graphic-designer",
+    "title": "Graphic Designer",
+    "cluster": "creative-arts",
+    "emoji": "🎨",
+    "color": "#FF6B9D",
+    "one_liner": "Create visuals that communicate ideas and tell stories",
+    "what_is_it": "Graphic designers use typography, colour, and imagery to communicate messages visually. You might design logos, posters, websites, packaging, or social media content. Every advert you've ever noticed, every app icon you tap — a graphic designer made it. Designers work for agencies, in-house at brands, or as freelancers.",
+    "day_in_the_life": "9am: You review a client brief for a new coffee shop logo. You sketch three directions on your iPad, then open Illustrator to refine your favourite. After lunch you video-call the client to present your concepts. By 4pm you're tweaking colours based on their feedback, and you wrap up preparing a mockup showing the logo on a cup and window sign.",
+    "interest_tags": ["creative", "technology", "business"],
+    "skill_tags": ["creativity", "communication", "technical"],
+    "routes_in": [
+      {
+        "label": "A-Level Art & Design + Degree",
+        "description": "Study Art, Design, or Media at A-Level then a BA in Graphic Design at university. Portfolio work is essential.",
+        "years": "4–5 years",
+        "typical_subjects": ["Art & Design", "Media Studies", "Photography"]
+      },
+      {
+        "label": "EU: Design School (Art Academy / Design Hochschule)",
+        "description": "Many EU countries have dedicated design schools (like ArtEZ in Netherlands, ESAG in France) with portfolio-based entry.",
+        "years": "3–4 years"
+      },
+      {
+        "label": "US: Art/Design College",
+        "description": "A BFA in Graphic Design or Visual Communication from colleges like RISD, SVA, or CalArts. Portfolio is critical for admission.",
+        "years": "4 years"
+      },
+      {
+        "label": "Self-taught + Freelance",
+        "description": "Many designers build skills using online tools and courses (Adobe, Canva, YouTube), build a portfolio, and go straight into freelance work.",
+        "years": "1–2 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$38,000–$52,000",
+      "experienced_usd": "$65,000–$95,000",
+      "entry_eur": "€24,000–€36,000",
+      "experienced_eur": "€40,000–€65,000",
+      "source": "Glassdoor / Creative Industries Salary Survey 2024"
+    },
+    "try_it": [
+      "Download Canva (free) and redesign the logo of your favourite local shop",
+      "Complete the free Graphic Design Fundamentals course on Coursera",
+      "Follow 10 designers on Behance and study how they present their work",
+      "Redesign your school timetable as a beautifully designed infographic"
+    ],
+    "related_career_ids": ["game-designer", "filmmaker", "ux-designer"],
+    "tags": ["remote-friendly", "freelance-possible", "portfolio-based"]
+  },
+  {
+    "id": "game-designer",
+    "title": "Game Designer",
+    "cluster": "creative-arts",
+    "emoji": "🎮",
+    "color": "#FF6B9D",
+    "one_liner": "Create the rules, worlds, and experiences that make games unforgettable",
+    "what_is_it": "Game designers are the creative architects behind video games. You design the gameplay mechanics, levels, stories, characters, and systems that make games compelling and fun. Some designers specialise in narrative (story, dialogue), others in systems (combat, economy), or UX (how the interface feels). It's equal parts art, psychology, and systems thinking.",
+    "day_in_the_life": "You're working on a new puzzle level for a mobile game. You spend the morning in a design meeting, pitching your level concept using hand-drawn sketches. After approval, you build a prototype in Unity and playtest it with your colleagues. Their feedback reveals the level is too hard — you spend the afternoon adjusting enemy placement and save points, then retest.",
+    "interest_tags": ["creative", "technology", "people"],
+    "skill_tags": ["creativity", "problem_solving", "communication"],
+    "routes_in": [
+      {
+        "label": "University: Game Design or Computer Science",
+        "description": "BSc or BA in Game Design, Computer Science, or Interactive Media. Strong portfolio of personal game projects is essential.",
+        "years": "3–4 years",
+        "typical_subjects": ["Computer Science", "Art & Design", "Maths"]
+      },
+      {
+        "label": "US: Game Design School",
+        "description": "Dedicated game design programmes at schools like Full Sail, DigiPen, or NYU Game Center. Portfolio and indie games matter as much as grades.",
+        "years": "2–4 years"
+      },
+      {
+        "label": "Self-taught + Indie Development",
+        "description": "Many game designers start by building games in Unity or Godot (both free) and releasing them on itch.io. The portfolio IS the application.",
+        "years": "Ongoing"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$48,000–$65,000",
+      "experienced_usd": "$90,000–$140,000",
+      "entry_eur": "€28,000–€42,000",
+      "experienced_eur": "€55,000–€90,000",
+      "source": "Game Developers Conference Salary Survey 2024"
+    },
+    "try_it": [
+      "Download Unity or Godot (both free) and follow a beginner game tutorial on YouTube",
+      "Publish a tiny game on itch.io — even if it's just a simple puzzle",
+      "Play a game you love and write a 1-page 'design document' explaining why it works",
+      "Read 'The Art of Game Design' by Jesse Schell — it's the definitive beginner book"
+    ],
+    "related_career_ids": ["software-engineer", "graphic-designer", "filmmaker"],
+    "tags": ["creative", "portfolio-based", "competitive"]
+  },
+  {
+    "id": "filmmaker",
+    "title": "Filmmaker",
+    "cluster": "creative-arts",
+    "emoji": "🎬",
+    "color": "#FF6B9D",
+    "one_liner": "Tell stories that move, inspire, and challenge audiences through the power of film",
+    "what_is_it": "Filmmakers bring stories to life through moving images. You might direct, write, produce, edit, or shoot — or do all of these on independent projects. Filmmakers work in fiction (movies, series), documentary, advertising, music videos, and corporate video. The digital revolution means you can start making films today with just a smartphone.",
+    "day_in_the_life": "You're in pre-production for a short documentary about local street artists. Today you scout filming locations with your director of photography, deciding on angles and lighting approaches. In the afternoon you interview one of your subjects on camera, asking about their influences. In the evening you review the footage and begin planning the editing structure.",
+    "interest_tags": ["creative", "people", "language"],
+    "skill_tags": ["creativity", "communication", "people_skills"],
+    "routes_in": [
+      {
+        "label": "Film School Degree (UK/EU)",
+        "description": "BA in Film Production at schools like London Film School, NFTS, La Fémis (France), or DFFB (Germany). Portfolio or short film required.",
+        "years": "3 years"
+      },
+      {
+        "label": "US: Film School",
+        "description": "BFA in Film at USC, NYU Tisch, AFI, or Chapman. Competitive entry — your short films and creative statement matter most.",
+        "years": "4 years"
+      },
+      {
+        "label": "Self-taught + YouTube",
+        "description": "Many working directors and editors are self-taught. Start making short films, post them online, enter festivals. The work is the qualification.",
+        "years": "Ongoing"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$35,000–$55,000",
+      "experienced_usd": "$70,000–$200,000+",
+      "entry_eur": "€22,000–€38,000",
+      "experienced_eur": "€45,000–€120,000+",
+      "source": "BFI Skills Intelligence / CreativeSkills 2024"
+    },
+    "try_it": [
+      "Film a 60-second mini-documentary about someone in your family or community",
+      "Use DaVinci Resolve (free) to edit your footage and learn basic cuts and transitions",
+      "Watch 'Every Frame a Painting' YouTube series — it teaches film technique through great examples",
+      "Enter a student short film competition — there are many with free entry"
+    ],
+    "related_career_ids": ["graphic-designer", "game-designer", "journalist"],
+    "tags": ["creative", "freelance-possible", "competitive"]
+  },
+  {
+    "id": "fashion-designer",
+    "title": "Fashion Designer",
+    "cluster": "creative-arts",
+    "emoji": "👗",
+    "color": "#FF6B9D",
+    "one_liner": "Create clothing and accessories that shape how people express themselves",
+    "what_is_it": "Fashion designers create clothing, footwear, and accessories. You might work for a luxury fashion house, a high-street retailer, a sportswear brand, or run your own label. The job combines creative vision with technical knowledge of fabrics, construction, and manufacturing. Sustainability is reshaping the industry — designers who understand ethical production are in demand.",
+    "day_in_the_life": "You sketch designs for next season's collection, focusing on a sustainable denim range. You visit the fabric supplier to touch and test new eco-dyed samples. Back in the studio, you work with your pattern cutter to adjust the fit of a jacket prototype — the shoulders need tweaking. You end the day reviewing a mood board for the collection's photoshoot.",
+    "interest_tags": ["creative", "business"],
+    "skill_tags": ["creativity", "detail_oriented", "communication"],
+    "routes_in": [
+      {
+        "label": "Fashion Design Degree (UK/EU)",
+        "description": "BA Fashion Design at Central Saint Martins (UK), Royal Academy of Fine Arts (Antwerp), or ESMOD (France). Portfolio entry essential.",
+        "years": "3 years"
+      },
+      {
+        "label": "US: Fashion Institute",
+        "description": "AAS or BFA in Fashion Design at FIT (New York), Parsons, or SCAD. Portfolio review and creative tests required.",
+        "years": "2–4 years"
+      },
+      {
+        "label": "Apprenticeship / Industry Route",
+        "description": "Start as a garment technician, pattern cutter, or fashion assistant at a brand and work your way up while developing your portfolio.",
+        "years": "2–4 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$35,000–$50,000",
+      "experienced_usd": "$65,000–$120,000+",
+      "entry_eur": "€22,000–€35,000",
+      "experienced_eur": "€42,000–€80,000+",
+      "source": "Creative Industries Federation / BLS 2024"
+    },
+    "try_it": [
+      "Sketch 5 outfit designs inspired by a decade in history (e.g., the 1970s or 1990s)",
+      "Follow the Vogue Runway Instagram to study how fashion houses present collections",
+      "Upcycle an old piece of clothing — cut it up and reconstruct it into something new",
+      "Enter a school or local fashion design competition"
+    ],
+    "related_career_ids": ["graphic-designer", "filmmaker", "marketing-manager"],
+    "tags": ["creative", "portfolio-based", "competitive"]
+  },
+  {
+    "id": "doctor",
+    "title": "Doctor (Physician)",
+    "cluster": "healthcare",
+    "emoji": "🩺",
+    "color": "#06D6A0",
+    "one_liner": "Diagnose, treat, and care for patients — one of the most trusted roles in society",
+    "what_is_it": "Doctors assess patients, diagnose illnesses, and recommend and carry out treatments. After medical school, doctors specialise — you might become a GP, surgeon, paediatrician, psychiatrist, cardiologist, or any of dozens of specialties. Medicine is a vocation that combines science, empathy, and continuous learning across your entire career.",
+    "day_in_the_life": "As a junior doctor in A&E, you start your shift reviewing overnight admissions. You see a patient with severe stomach pain — you take their history, examine them, and order blood tests and a scan. After reviewing results with a senior consultant, you determine appendicitis and arrange surgery. You update the patient and their worried family. Between cases, you complete clinical notes, attend a teaching session, and have a quick lunch.",
+    "interest_tags": ["health", "science", "people"],
+    "skill_tags": ["problem_solving", "empathy", "communication"],
+    "routes_in": [
+      {
+        "label": "UK: A-Levels + Medical School (5 years)",
+        "description": "Chemistry and Biology essential, often with Maths or Physics. 5-year MBChB/MBBS degree. Then Foundation Programme (2 years).",
+        "years": "7+ years",
+        "typical_subjects": ["Biology", "Chemistry", "Maths or Physics"]
+      },
+      {
+        "label": "EU: Medical School Direct Entry",
+        "description": "Most EU countries have 6-year direct-entry medical degrees. Numerus clausus (restricted entry) makes it competitive — top grades required.",
+        "years": "6 years"
+      },
+      {
+        "label": "US: Pre-med + Medical School (MD)",
+        "description": "4-year undergraduate degree (pre-med focus), MCAT exam, then 4-year MD programme, followed by residency (3–7 years).",
+        "years": "11–15 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$65,000–$90,000",
+      "experienced_usd": "$200,000–$400,000+",
+      "entry_eur": "€35,000–€60,000",
+      "experienced_eur": "€80,000–€200,000",
+      "source": "NHS Pay Scales 2024 / BLS 2024 / OECD Health Data"
+    },
+    "try_it": [
+      "Volunteer at your local hospital, care home, or St John Ambulance",
+      "Shadow a GP or ask your school about medical work experience programmes",
+      "Watch 'Medlife Crisis' on YouTube for a cardiologist's take on real medical cases",
+      "Study biology at a deeper level — read a copy of 'Gray's Anatomy for Students'"
+    ],
+    "related_career_ids": ["nurse", "physiotherapist", "biomedical-engineer"],
+    "tags": ["high-impact", "vocation", "long-training"]
+  },
+  {
+    "id": "nurse",
+    "title": "Nurse",
+    "cluster": "healthcare",
+    "emoji": "🏥",
+    "color": "#06D6A0",
+    "one_liner": "Care for patients through some of the most important moments of their lives",
+    "what_is_it": "Nurses assess, monitor, and care for patients in hospitals, GP surgeries, schools, care homes, and communities. You're often the person patients spend the most time with — checking their wellbeing, administering medication, providing emotional support, and working as part of a clinical team. Nursing is a vocation and a career with extraordinary variety across specialties.",
+    "day_in_the_life": "You begin your 12-hour shift with a handover from the night team. You check on each of your eight patients — taking observations, reviewing medication charts, and having a proper conversation with each person. You help a patient with their first walk after surgery, support a worried family, and flag a patient whose blood pressure concerns you to the doctor. In between, there's documentation, meals to coordinate, and new admissions.",
+    "interest_tags": ["health", "people", "science"],
+    "skill_tags": ["empathy", "communication", "problem_solving"],
+    "routes_in": [
+      {
+        "label": "UK: Nursing Degree (BSc, 3 years)",
+        "description": "A 3-year BSc Nursing degree (adult, mental health, children's, or learning disabilities). NHS bursaries help cover costs.",
+        "years": "3 years",
+        "typical_subjects": ["Biology", "Chemistry", "Health & Social Care"]
+      },
+      {
+        "label": "EU: Nursing School / Krankenpflegeschule",
+        "description": "Most EU countries have 3-year regulated nursing programmes, often with practical placements integrated from year one.",
+        "years": "3 years"
+      },
+      {
+        "label": "US: ADN or BSN Programme",
+        "description": "Associate Degree in Nursing (2 years) to get started, or Bachelor of Science in Nursing (4 years) for more career options. NCLEX-RN exam required.",
+        "years": "2–4 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$55,000–$70,000",
+      "experienced_usd": "$80,000–$120,000",
+      "entry_eur": "€26,000–€38,000",
+      "experienced_eur": "€42,000–€65,000",
+      "source": "NHS Pay Scales Band 5–7 2024 / BLS 2024"
+    },
+    "try_it": [
+      "Volunteer with St John Ambulance or the Red Cross — both run youth programmes",
+      "Ask about work experience at your local hospital, GP surgery, or care home",
+      "Take a free first aid course — it's a life skill and looks great on any application",
+      "Shadow a community nurse or school nurse for a day"
+    ],
+    "related_career_ids": ["doctor", "physiotherapist", "psychologist"],
+    "tags": ["high-demand", "vocation", "people-focused"]
+  },
+  {
+    "id": "physiotherapist",
+    "title": "Physiotherapist",
+    "cluster": "healthcare",
+    "emoji": "💪",
+    "color": "#06D6A0",
+    "one_liner": "Help people recover from injury, surgery, and illness through movement and rehabilitation",
+    "what_is_it": "Physiotherapists (physios) assess and treat physical problems caused by illness, injury, or ageing. You work with patients to improve their movement, reduce pain, and prevent disability through targeted exercises, manual therapy, and education. Physios work in hospitals, sports clubs, private clinics, and community settings. It combines science, sport, and human connection.",
+    "day_in_the_life": "Your first patient is a runner recovering from a knee ligament injury. You assess their movement patterns, give them a new set of progressive strength exercises, and check their running technique on a treadmill. Your second patient is an older person recovering from a hip replacement — you help them practice stairs safely. Between patients, you write clinical notes and plan a group class for people with chronic back pain.",
+    "interest_tags": ["health", "science", "people"],
+    "skill_tags": ["empathy", "people_skills", "physical"],
+    "routes_in": [
+      {
+        "label": "UK: Physiotherapy Degree (BSc, 3 years)",
+        "description": "BSc Physiotherapy is the main entry route. Biology and often a second science at A-Level. Work experience in a healthcare setting is required.",
+        "years": "3 years",
+        "typical_subjects": ["Biology", "Physical Education", "Chemistry or Psychology"]
+      },
+      {
+        "label": "EU: Physiotherapy Bachelor",
+        "description": "3–4 year bachelor's programme in physiotherapy. Required across all EU countries, with practice placements integrated throughout.",
+        "years": "3–4 years"
+      },
+      {
+        "label": "US: DPT (Doctor of Physical Therapy)",
+        "description": "A 3-year Doctor of Physical Therapy graduate programme, following a bachelor's degree. All US physios must complete the DPT and pass national boards.",
+        "years": "7 years (undergrad + DPT)"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$60,000–$75,000",
+      "experienced_usd": "$90,000–$130,000",
+      "entry_eur": "€28,000–€40,000",
+      "experienced_eur": "€45,000–€70,000",
+      "source": "NHS Band 5–7 2024 / BLS 2024 / WCPT"
+    },
+    "try_it": [
+      "Try yoga or pilates to understand how movement and body awareness connect",
+      "Volunteer with a sports team as a runner or first aider",
+      "Read 'Why We Sleep' by Matthew Walker — it's science-backed and fascinating",
+      "Shadow a physiotherapist — many NHS trusts offer year 10/11 health work experience"
+    ],
+    "related_career_ids": ["nurse", "doctor", "psychologist"],
+    "tags": ["hands-on", "people-focused", "sport-adjacent"]
+  },
+  {
+    "id": "veterinarian",
+    "title": "Veterinarian",
+    "cluster": "healthcare",
+    "emoji": "🐾",
+    "color": "#06D6A0",
+    "one_liner": "Protect animal health and welfare — from family pets to farm livestock to wildlife",
+    "what_is_it": "Veterinarians (vets) diagnose, treat, and prevent animal diseases and injuries. You might work in a small animal practice treating cats and dogs, a farm practice with livestock, an equine practice with horses, a zoo, or in research and public health. Vets also play a critical role in food safety and controlling diseases that can transfer from animals to humans.",
+    "day_in_the_life": "Your first appointment is a Labrador with a suspected ear infection — you examine, diagnose, and prescribe medication, explaining the treatment to the owner. Next is a cat coming in for a spay surgery, which you perform alongside your nurse. After lunch, you do a farm visit to check on a herd of cows and advise on vaccination protocols. You finish the day with emergency consults.",
+    "interest_tags": ["health", "science", "nature"],
+    "skill_tags": ["problem_solving", "empathy", "detail_oriented"],
+    "routes_in": [
+      {
+        "label": "UK: Veterinary Degree (5 years)",
+        "description": "BVetMed / BVSc degree at one of the UK's vet schools (Cambridge, RVC, Edinburgh, etc.). Highly competitive — work experience with animals is essential.",
+        "years": "5 years",
+        "typical_subjects": ["Biology", "Chemistry", "Maths or Physics"]
+      },
+      {
+        "label": "EU: Veterinary School",
+        "description": "5–6 year veterinary degrees at schools like Utrecht (Netherlands), LMU Munich, or AgroParisTech (France). Very competitive entry.",
+        "years": "5–6 years"
+      },
+      {
+        "label": "US: Doctor of Veterinary Medicine (DVM)",
+        "description": "4-year DVM programme following a bachelor's degree. Entry requires GRE/VMCAS application and significant animal experience.",
+        "years": "8 years (undergrad + DVM)"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$70,000–$90,000",
+      "experienced_usd": "$110,000–$160,000",
+      "entry_eur": "€30,000–€45,000",
+      "experienced_eur": "€55,000–€90,000",
+      "source": "RCVS Pay Survey 2024 / AVMA Economic State of the Profession"
+    },
+    "try_it": [
+      "Volunteer at an animal shelter, RSPCA centre, or local farm",
+      "Shadow a local vet for work experience — most practices welcome students",
+      "Follow the British Veterinary Association's young vet resources online",
+      "Read 'All Creatures Great and Small' by James Herriot — a classic portrait of vet life"
+    ],
+    "related_career_ids": ["doctor", "nurse", "environmental-scientist"],
+    "tags": ["vocation", "animal-focused", "science-heavy"]
+  },
+  {
+    "id": "psychologist",
+    "title": "Psychologist",
+    "cluster": "healthcare",
+    "emoji": "🧠",
+    "color": "#06D6A0",
+    "one_liner": "Study and support human minds — helping people understand themselves and overcome challenges",
+    "what_is_it": "Psychologists study human behaviour, thought, and emotion. Clinical psychologists work directly with people experiencing mental health difficulties, using evidence-based therapies. Research psychologists investigate human cognition, behaviour, and development. There are also educational, forensic, sport, and occupational psychologists. It's a field with huge breadth and growing demand.",
+    "day_in_the_life": "You're a trainee clinical psychologist. Today you have three one-hour therapy sessions — one with a teenager struggling with anxiety, one with an adult with depression, and one with a couple navigating bereavement. Between sessions you write detailed notes and consult with your supervisor about a complex case. In the afternoon you attend a team meeting at the CAMHS service you're placed with.",
+    "interest_tags": ["health", "people", "science"],
+    "skill_tags": ["empathy", "communication", "problem_solving"],
+    "routes_in": [
+      {
+        "label": "UK: Psychology Degree + Doctorate (DClinPsy)",
+        "description": "BSc Psychology (BPS accredited), then 3-year Doctorate in Clinical Psychology. Competitive — usually requires NHS work experience after undergrad.",
+        "years": "9–10 years"
+      },
+      {
+        "label": "EU: Psychology Masters",
+        "description": "5-year integrated Masters in Psychology, or 3-year Bachelor + 2-year Master. Licensing requirements vary by country.",
+        "years": "5 years"
+      },
+      {
+        "label": "US: PhD or PsyD",
+        "description": "4-year bachelor's, then a 4–7 year doctoral programme. PsyD is more practice-focused; PhD is more research-focused.",
+        "years": "8–11 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$55,000–$75,000",
+      "experienced_usd": "$90,000–$140,000",
+      "entry_eur": "€30,000–€45,000",
+      "experienced_eur": "€55,000–€90,000",
+      "source": "BPS Pay Survey 2024 / BLS 2024"
+    },
+    "try_it": [
+      "Read 'Thinking, Fast and Slow' by Daniel Kahneman — a fascinating intro to how minds work",
+      "Listen to the 'Hidden Brain' podcast to understand psychology through storytelling",
+      "Volunteer for a mental health charity helpline (after training) — some accept 16+",
+      "Study A-Level Psychology to get a feel for the academic side of the field"
+    ],
+    "related_career_ids": ["social-worker", "nurse", "teacher"],
+    "tags": ["high-demand", "long-training", "people-focused"]
+  },
+  {
+    "id": "marketing-manager",
+    "title": "Marketing Manager",
+    "cluster": "business",
+    "emoji": "📣",
+    "color": "#FFB703",
+    "one_liner": "Shape how brands reach and connect with customers across every platform",
+    "what_is_it": "Marketing managers plan, execute, and oversee campaigns that promote products, services, or brands. You work across digital advertising, social media, email, content, events, and partnerships. You analyse data to see what's working, brief creative teams, manage budgets, and report to senior leadership. Marketing sits at the intersection of creativity, psychology, and data.",
+    "day_in_the_life": "You start by reviewing last week's social media performance data — your latest campaign exceeded targets. You brief the design team on a new product launch campaign, review copy for a launch email, then jump on a call with your paid ads agency to discuss targeting strategy. After lunch you present your Q3 marketing plan to the marketing director. You end the day reviewing influencer partnership proposals.",
+    "interest_tags": ["business", "creative", "people"],
+    "skill_tags": ["communication", "creativity", "leadership"],
+    "routes_in": [
+      {
+        "label": "University: Marketing, Business, or Communications Degree",
+        "description": "BA in Marketing, Business, Communications, or Psychology. Many roles also open to any degree with strong work experience.",
+        "years": "3–4 years"
+      },
+      {
+        "label": "EU: Business School / Grande École",
+        "description": "Business programmes at French Grandes Écoles, German Handelshochschulen, or Dutch Hogescholen often include marketing specialisations.",
+        "years": "3–5 years"
+      },
+      {
+        "label": "US: Business College + Internships",
+        "description": "A 4-year BBA in Marketing with multiple internships. Summer internships at agencies or brands are often the route to a first job.",
+        "years": "4 years"
+      },
+      {
+        "label": "Digital Marketing Bootcamp / Certifications",
+        "description": "Google, Meta, and HubSpot offer professional certifications. Combined with a strong portfolio of campaigns, this can open doors.",
+        "years": "3–6 months"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$45,000–$62,000",
+      "experienced_usd": "$85,000–$140,000",
+      "entry_eur": "€28,000–€42,000",
+      "experienced_eur": "€55,000–€90,000",
+      "source": "CIM Salary Survey 2024 / Glassdoor"
+    },
+    "try_it": [
+      "Start a social media account around a topic you're passionate about and grow it",
+      "Analyse why your favourite brand's ads work — what emotions do they target?",
+      "Complete Google's free Digital Marketing & E-commerce Certificate on Coursera",
+      "Create a simple marketing plan for your school's next event"
+    ],
+    "related_career_ids": ["entrepreneur", "ux-designer", "journalist"],
+    "tags": ["creative-analytical", "remote-friendly", "fast-moving"]
+  },
+  {
+    "id": "entrepreneur",
+    "title": "Entrepreneur",
+    "cluster": "business",
+    "emoji": "🚀",
+    "color": "#FFB703",
+    "one_liner": "Build something from nothing — create a product or service that solves a real problem",
+    "what_is_it": "Entrepreneurs start and build businesses. You identify a problem people have, develop a solution, find customers, and grow an organisation around it. Entrepreneurship requires a rare combination of creativity, resilience, sales ability, and strategic thinking. You can start a tech startup, a local service business, a social enterprise, or a creative studio.",
+    "day_in_the_life": "You're running a 6-month-old sustainable clothing brand. Today you're negotiating with a new ethical fabric supplier in Portugal, then filming a behind-the-scenes video for Instagram. You jump on a call with a potential wholesale buyer who wants to stock your clothes, then review your website analytics to understand which products are converting best. In the evening you respond to customer messages and plan next week's launch.",
+    "interest_tags": ["business", "creative", "people"],
+    "skill_tags": ["leadership", "creativity", "communication"],
+    "routes_in": [
+      {
+        "label": "University: Business, Technology, or Any Degree",
+        "description": "Many entrepreneurs study business or the field they want to build in. But many also skip university — the idea and execution matter more than the degree.",
+        "years": "Optional"
+      },
+      {
+        "label": "Start Now (Seriously)",
+        "description": "Many successful entrepreneurs start their first business as teenagers. You can start an online business, freelance, or offer local services right now.",
+        "years": "Start anytime"
+      },
+      {
+        "label": "Startup Accelerator / Young Enterprise",
+        "description": "Young Enterprise (UK), Junior Achievement (US/EU), and programs like Y Combinator's library teach entrepreneurship through doing.",
+        "years": "6–12 months"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$0–$40,000 (early stage)",
+      "experienced_usd": "Unlimited upside",
+      "entry_eur": "€0–€30,000 (early stage)",
+      "experienced_eur": "Unlimited upside",
+      "source": "The range is enormous — from zero to billions depending on the business"
+    },
+    "try_it": [
+      "Join your school's Young Enterprise or DECA programme",
+      "Identify one problem in your school or community and sketch out a business that solves it",
+      "Read 'The Lean Startup' by Eric Ries — the bible of how to build a startup efficiently",
+      "Start small: sell something you make, or offer a service to neighbours (tutoring, gardening, design)"
+    ],
+    "related_career_ids": ["marketing-manager", "software-engineer", "financial-analyst"],
+    "tags": ["high-risk-high-reward", "self-directed", "no-fixed-path"]
+  },
+  {
+    "id": "financial-analyst",
+    "title": "Financial Analyst",
+    "cluster": "business",
+    "emoji": "💹",
+    "color": "#FFB703",
+    "one_liner": "Analyse financial data and help organisations make smart money decisions",
+    "what_is_it": "Financial analysts research companies, industries, and economic trends to guide investment and business decisions. You might work in investment banking, asset management, corporate finance, or private equity. The job involves deep analysis of financial statements, building valuation models, and presenting findings to decision-makers. It's detail-oriented, analytical, and well-compensated.",
+    "day_in_the_life": "You're an analyst at an investment bank. Today you build a financial model to value a company that your bank is advising on a potential sale. You analyse 5 years of their revenue data, build revenue growth projections, and calculate a range of valuations. You prepare slides summarising your analysis for the senior banker to present to the client. In the afternoon you listen in on a call with the client's management team.",
+    "interest_tags": ["business", "science"],
+    "skill_tags": ["problem_solving", "detail_oriented", "technical"],
+    "routes_in": [
+      {
+        "label": "University: Finance, Economics, or Maths Degree",
+        "description": "A degree in Finance, Economics, Accounting, or Mathematics. Target top universities for investment banking graduate schemes.",
+        "years": "3–4 years",
+        "typical_subjects": ["Maths", "Economics", "Further Maths"]
+      },
+      {
+        "label": "EU: Business School / Finance Masters",
+        "description": "A Grande École or European Business School degree, often followed by a Master in Finance (MSc Finance, MiF). Paris, Frankfurt, Amsterdam are key hubs.",
+        "years": "4–5 years"
+      },
+      {
+        "label": "US: Finance / Economics College + Wall Street Internship",
+        "description": "A 4-year degree in Finance, Econ, or Maths. Summer analyst internship at a bank between years 3 and 4 is the main recruiting route.",
+        "years": "4 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$70,000–$100,000",
+      "experienced_usd": "$150,000–$400,000+",
+      "entry_eur": "€38,000–€60,000",
+      "experienced_eur": "€80,000–€200,000+",
+      "source": "eFinancialCareers Salary Survey 2024 / Glassdoor"
+    },
+    "try_it": [
+      "Learn to read a company's income statement, balance sheet, and cash flow statement — YouTube has great free tutorials",
+      "Play a stock market simulation game like Wall Street Survivor or MarketWatch",
+      "Complete CFI's free introduction to financial modelling course online",
+      "Read the Financial Times for 10 minutes a day to understand business news"
+    ],
+    "related_career_ids": ["entrepreneur", "data-scientist", "marketing-manager"],
+    "tags": ["high-earning", "detail-oriented", "competitive"]
+  },
+  {
+    "id": "ux-designer",
+    "title": "UX Designer",
+    "cluster": "business",
+    "emoji": "🖥️",
+    "color": "#FFB703",
+    "one_liner": "Design digital experiences that are intuitive, beautiful, and actually work for real people",
+    "what_is_it": "UX (User Experience) designers research how people use digital products and design interfaces that are easy, enjoyable, and effective. You conduct user research, create wireframes and prototypes, and work closely with product managers and engineers. UX sits between design and product — you're the advocate for the user in every decision. It's one of the most in-demand creative-tech roles.",
+    "day_in_the_life": "You start by reviewing feedback from usability testing of a new app feature — users are confused about the checkout flow. You sketch revised wireframes addressing their pain points, then prototype them in Figma. You share your designs with the product team in a critique session, incorporating their feedback. In the afternoon you run a user interview to understand how people currently manage their finances before designing a new budgeting feature.",
+    "interest_tags": ["technology", "creative", "people"],
+    "skill_tags": ["creativity", "empathy", "communication"],
+    "routes_in": [
+      {
+        "label": "University: Design, Psychology, or Computer Science",
+        "description": "Degrees in Interaction Design, Graphic Design, Human-Computer Interaction, or Psychology all lead into UX. Portfolio is essential.",
+        "years": "3–4 years"
+      },
+      {
+        "label": "UX Bootcamp",
+        "description": "Intensive 3–6 month UX bootcamps (General Assembly, Springboard, CareerFoundry) include mentorship and portfolio project support.",
+        "years": "3–6 months"
+      },
+      {
+        "label": "Self-taught via Figma + Online Courses",
+        "description": "Figma is free for students. Combine online courses with real projects (redesign apps you use, volunteer for charities) to build a portfolio.",
+        "years": "6–12 months"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$60,000–$80,000",
+      "experienced_usd": "$110,000–$170,000",
+      "entry_eur": "€32,000–€50,000",
+      "experienced_eur": "€65,000–€110,000",
+      "source": "Salary.com / UX Design Institute Survey 2024"
+    },
+    "try_it": [
+      "Download Figma (free for students) and redesign the home screen of an app you use every day",
+      "Pick an app you find frustrating and document exactly what frustrates you — that's UX research",
+      "Watch 'The Futur' YouTube channel — great practical content on design thinking",
+      "Complete Google's free UX Design Certificate on Coursera"
+    ],
+    "related_career_ids": ["graphic-designer", "software-engineer", "marketing-manager"],
+    "tags": ["remote-friendly", "portfolio-based", "high-demand"]
+  },
+  {
+    "id": "teacher",
+    "title": "Teacher",
+    "cluster": "social-education",
+    "emoji": "📚",
+    "color": "#A8DADC",
+    "one_liner": "Shape the next generation — one of the most important jobs in any society",
+    "what_is_it": "Teachers educate young people in schools, colleges, and alternative settings. You plan and deliver lessons, assess student progress, support wellbeing, and contribute to school life beyond the classroom. You might specialise in a subject (Science, Art, Languages, PE) or an age range. Teaching is demanding but deeply rewarding — you have a direct impact on every student you teach.",
+    "day_in_the_life": "You teach three Year 9 English lessons today. You start with a creative writing exercise inspired by a short film clip, then guide students through peer feedback on their drafts. Between lessons, you mark a set of essays and email a parent about their child's recent progress. In the afternoon you run an afterschool drama club. You finish by planning tomorrow's lessons.",
+    "interest_tags": ["people", "language", "creative"],
+    "skill_tags": ["communication", "empathy", "leadership"],
+    "routes_in": [
+      {
+        "label": "UK: Degree + PGCE",
+        "description": "A degree in your subject, then a 1-year Postgraduate Certificate in Education (PGCE). Or School Direct — train in a school from the start.",
+        "years": "4–5 years",
+        "typical_subjects": ["Your specialist subject", "English", "Education studies"]
+      },
+      {
+        "label": "EU: Education Degree / Teacher Training",
+        "description": "Most EU countries have 3–5 year integrated teacher education programmes at university. Requirements vary significantly by country and age group.",
+        "years": "3–5 years"
+      },
+      {
+        "label": "US: Education Degree + State Licensure",
+        "description": "4-year Bachelor's in Education (or a subject + Education minor), followed by a student teaching placement and state teaching licence.",
+        "years": "4 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$38,000–$50,000",
+      "experienced_usd": "$60,000–$90,000",
+      "entry_eur": "€25,000–€40,000",
+      "experienced_eur": "€40,000–€70,000",
+      "source": "DfE School Workforce Census 2024 / OECD Education at a Glance"
+    },
+    "try_it": [
+      "Volunteer to help younger students with reading at your school's reading programme",
+      "Tutor a younger sibling or neighbour in a subject you're strong in",
+      "Watch 'Mr Barton Maths' or similar subject specialist YouTube channels to see what great teaching looks like",
+      "Ask a teacher you admire if you can observe one of their lessons"
+    ],
+    "related_career_ids": ["psychologist", "social-worker", "journalist"],
+    "tags": ["vocation", "people-focused", "term-time-holidays"]
+  },
+  {
+    "id": "social-worker",
+    "title": "Social Worker",
+    "cluster": "social-education",
+    "emoji": "🤝",
+    "color": "#A8DADC",
+    "one_liner": "Support and protect the most vulnerable people in society",
+    "what_is_it": "Social workers support people facing difficult circumstances — from children at risk of abuse or neglect, to adults with disabilities, mental health problems, or addiction. You assess needs, create support plans, connect people with services, and sometimes make difficult decisions to keep people safe. It's one of the most emotionally demanding — and socially important — roles that exists.",
+    "day_in_the_life": "You begin by reading updates on your caseload. You visit a family where there are concerns about a child's welfare — you speak to the parents, play with the children to observe their wellbeing, and take notes. Back in the office, you write a detailed report and discuss the case with your supervisor. In the afternoon you attend a multi-agency meeting with police, health, and education colleagues to coordinate a care plan.",
+    "interest_tags": ["people", "health"],
+    "skill_tags": ["empathy", "communication", "problem_solving"],
+    "routes_in": [
+      {
+        "label": "UK: Social Work Degree (BSW or MA)",
+        "description": "A 3-year BA in Social Work or a 2-year MA (after a related degree). Practice placements are a core part of training. HCPC registration required.",
+        "years": "3 years"
+      },
+      {
+        "label": "EU: Social Work / Sozialpädagogik Degree",
+        "description": "3–4 year bachelor's in Social Work or Social Pedagogy. Requirements vary by country — Germany, Netherlands, and France all have strong programmes.",
+        "years": "3–4 years"
+      },
+      {
+        "label": "US: BSW + MSW",
+        "description": "A 4-year Bachelor in Social Work (BSW), often followed by a 2-year Master of Social Work (MSW) for clinical or advanced roles. LCSW licence required for therapy.",
+        "years": "4–6 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$42,000–$55,000",
+      "experienced_usd": "$65,000–$90,000",
+      "entry_eur": "€24,000–€36,000",
+      "experienced_eur": "€38,000–€60,000",
+      "source": "Community Care Salary Survey 2024 / BLS 2024"
+    },
+    "try_it": [
+      "Volunteer at a youth club, food bank, or community centre",
+      "Read 'The Selfless Gene' by Charles Foster to understand altruism and human connection",
+      "Contact your local council's children's or adult services team and ask about work shadowing",
+      "Explore the British Association of Social Workers' student resources online"
+    ],
+    "related_career_ids": ["psychologist", "teacher", "youth-worker"],
+    "tags": ["vocation", "high-impact", "emotionally-demanding"]
+  },
+  {
+    "id": "youth-worker",
+    "title": "Youth Worker",
+    "cluster": "social-education",
+    "emoji": "🌟",
+    "color": "#A8DADC",
+    "one_liner": "Support young people to develop, thrive, and navigate the challenges of growing up",
+    "what_is_it": "Youth workers support young people aged 11–25 in developing their confidence, skills, and wellbeing. You might run youth clubs, deliver personal development programmes, provide one-to-one support, or work in detached (street-based) youth work. Youth workers help young people who might be disengaged from school, facing challenges at home, or simply need a trusted adult outside their family.",
+    "day_in_the_life": "You arrive at the youth centre at 3pm, just as the after-school crowd starts arriving. You run a basketball session with a group of 14-year-olds, building trust and having real conversations along the way. Later, you meet one-to-one with a young person who is struggling with family issues — you listen, signpost them to further support, and help them fill in a college application form. You write session notes before locking up.",
+    "interest_tags": ["people", "health", "creative"],
+    "skill_tags": ["empathy", "people_skills", "communication"],
+    "routes_in": [
+      {
+        "label": "UK: JNC-Recognised Youth Work Degree",
+        "description": "A 3-year BA in Youth Work and Community Development. Many workers start as volunteers or junior workers and study part-time.",
+        "years": "3 years"
+      },
+      {
+        "label": "EU: Social Pedagogy / Sozialpädagogik",
+        "description": "Youth work falls under Social Pedagogy in much of Europe. 3–4 year bachelor's degree with strong placement components.",
+        "years": "3–4 years"
+      },
+      {
+        "label": "Start Volunteering Now",
+        "description": "Many youth workers start as volunteers at age 16+. Volunteering at a youth club or mentoring programme is the first step — and can lead directly to employment.",
+        "years": "Start now"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$32,000–$42,000",
+      "experienced_usd": "$50,000–$65,000",
+      "entry_eur": "€20,000–€30,000",
+      "experienced_eur": "€32,000–€50,000",
+      "source": "NYA Salary Survey 2024 / EU Youth Work Statistics"
+    },
+    "try_it": [
+      "Volunteer at a local youth club, Scout/Guide group, or sports club",
+      "Look into your local council's youth service — many accept volunteer helpers from age 16",
+      "Explore the National Youth Agency (UK) website for careers information",
+      "Reflect on which adult outside your family has helped you most — what did they do?"
+    ],
+    "related_career_ids": ["social-worker", "teacher", "psychologist"],
+    "tags": ["vocation", "people-focused", "community"]
+  },
+  {
+    "id": "journalist",
+    "title": "Journalist",
+    "cluster": "social-education",
+    "emoji": "📰",
+    "color": "#A8DADC",
+    "one_liner": "Investigate, report, and tell stories that inform and hold power to account",
+    "what_is_it": "Journalists research, write, and report news and stories across print, digital, TV, radio, and podcasts. You might cover local news, politics, crime, science, sport, or culture. Journalism requires strong writing, relentless curiosity, and the courage to ask difficult questions. Investigative journalists expose wrongdoing; feature writers tell human stories; data journalists use spreadsheets to find stories hidden in numbers.",
+    "day_in_the_life": "You're a junior reporter at a regional newspaper. This morning you attend a council planning meeting and take notes on a controversial housing development. You call local residents affected by the plan to get their quotes. You write the story in the afternoon, fact-check every claim, and file it to your editor before 5pm. You also pitch a longer feature story about food bank usage in the area for next week.",
+    "interest_tags": ["language", "people", "business"],
+    "skill_tags": ["communication", "detail_oriented", "people_skills"],
+    "routes_in": [
+      {
+        "label": "UK: Journalism Degree + NCTJ",
+        "description": "A journalism degree or the NCTJ Diploma in Journalism is the industry-standard qualification. Work experience at local papers or student media is essential.",
+        "years": "3–4 years"
+      },
+      {
+        "label": "EU: Journalism School",
+        "description": "Dedicated journalism schools like CFJ (France), DJSchool (Denmark), or Henri-Nannen-Schule (Germany) offer competitive programmes.",
+        "years": "2–4 years"
+      },
+      {
+        "label": "US: Journalism School + Internships",
+        "description": "A 4-year BA in Journalism from schools like Northwestern, Columbia, or Missouri. Summer internships at publications are crucial.",
+        "years": "4 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$35,000–$50,000",
+      "experienced_usd": "$65,000–$120,000",
+      "entry_eur": "€22,000–€35,000",
+      "experienced_eur": "€40,000–€80,000",
+      "source": "NUJ Freelance Survey 2024 / BLS 2024"
+    },
+    "try_it": [
+      "Start a school newspaper, podcast, or blog — even a simple one",
+      "Interview someone interesting in your community and write it up as a 500-word article",
+      "Read a broadsheet newspaper daily and notice how stories are structured",
+      "Apply for the BBC School Report scheme or similar youth journalism programmes"
+    ],
+    "related_career_ids": ["filmmaker", "teacher", "lawyer"],
+    "tags": ["language-driven", "competitive", "varied"]
+  },
+  {
+    "id": "electrician",
+    "title": "Electrician",
+    "cluster": "trades-technical",
+    "emoji": "⚡",
+    "color": "#F4A261",
+    "one_liner": "Install and maintain the electrical systems that power every building and home",
+    "what_is_it": "Electricians install, maintain, and repair electrical wiring, systems, and equipment in homes, commercial buildings, and industrial facilities. As the world transitions to electric vehicles, solar panels, and smart technology, electricians are in higher demand than ever. It's a skilled trade with excellent job security, strong earnings, and the option to eventually run your own business.",
+    "day_in_the_life": "You arrive at a house extension where you're wiring the new rooms. You run cable through walls and ceilings, install back-boxes for sockets and switches, and test your work as you go. In the afternoon you troubleshoot a faulty consumer unit at a different property — you use a multimeter to identify a fault and replace the faulty component. You log all your work in your test certificates.",
+    "interest_tags": ["technology", "science"],
+    "skill_tags": ["technical", "problem_solving", "detail_oriented"],
+    "routes_in": [
+      {
+        "label": "UK: Electrical Apprenticeship (Level 3)",
+        "description": "A 4-year Electrical Installation Apprenticeship. You earn while you learn with an employer, attending college one day a week. JIB Card at completion.",
+        "years": "4 years"
+      },
+      {
+        "label": "EU: Dual Training / Electrician Apprenticeship",
+        "description": "Germany, Austria, Switzerland and the Netherlands have excellent dual-system apprenticeships in electrical installation (Elektroniker für Energie- und Gebäudetechnik).",
+        "years": "3.5 years"
+      },
+      {
+        "label": "US: Electrician Apprenticeship (IBEW)",
+        "description": "A 4–5 year IBEW/NJATC apprenticeship programme. Fully paid, with progressive wage increases. Must pass an aptitude test to enter.",
+        "years": "4–5 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$45,000–$58,000",
+      "experienced_usd": "$80,000–$120,000+",
+      "entry_eur": "€24,000–€36,000",
+      "experienced_eur": "€45,000–€75,000",
+      "source": "JIB Electrician Pay Rates 2024 / BLS 2024"
+    },
+    "try_it": [
+      "Take a basic electronics course — Raspberry Pi starter kits are great for learning circuits",
+      "Watch 'The Engineering Mindset' on YouTube for electrical theory explained clearly",
+      "Ask your school's DT teacher about simple wiring or electronics projects",
+      "Look up electrician apprenticeship schemes in your area — applications often open at 15–16"
+    ],
+    "related_career_ids": ["mechanical-engineer", "civil-engineer", "software-engineer"],
+    "tags": ["earn-while-learn", "high-demand", "future-proof"]
+  },
+  {
+    "id": "civil-engineer",
+    "title": "Civil Engineer",
+    "cluster": "trades-technical",
+    "emoji": "🏗️",
+    "color": "#F4A261",
+    "one_liner": "Design and build the infrastructure that societies depend on — bridges, roads, buildings, and water systems",
+    "what_is_it": "Civil engineers design, build, and maintain physical infrastructure — roads, bridges, tunnels, dams, airports, water treatment works, and buildings. You're involved from the initial design, through planning and construction, to maintenance over decades. Civil engineering is one of the oldest and broadest engineering disciplines, with specialisations in structural, geotechnical, transport, environmental, and water engineering.",
+    "day_in_the_life": "You're a graduate civil engineer working on a new railway bridge project. Today you review structural drawings and run calculations to check the load capacity of a proposed design. You visit the construction site to inspect the foundation work and discuss a problem with the contractor. Back in the office, you write a technical memo for your senior engineer and prepare a progress report for the client.",
+    "interest_tags": ["science", "technology", "nature"],
+    "skill_tags": ["problem_solving", "technical", "detail_oriented"],
+    "routes_in": [
+      {
+        "label": "A-Levels / Bac + Civil Engineering Degree",
+        "description": "Maths and Physics at A-Level or equivalent, then a 4-year BEng or MEng in Civil Engineering. Chartership (ICE) follows with experience.",
+        "years": "4–5 years",
+        "typical_subjects": ["Maths", "Physics", "Geography or Chemistry"]
+      },
+      {
+        "label": "EU: Civil Engineering Degree (Ingenieur / Ingénieur)",
+        "description": "5-year integrated engineering degrees at TU Delft, ETH Zurich, KU Leuven, or Politecnico di Milano are world-class entry routes.",
+        "years": "5 years"
+      },
+      {
+        "label": "Degree Apprenticeship (UK)",
+        "description": "Firms like Arup, Atkins, and Laing O'Rourke offer degree-level apprenticeships in civil engineering. Earn £20,000+ while studying.",
+        "years": "5 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$60,000–$75,000",
+      "experienced_usd": "$95,000–$145,000",
+      "entry_eur": "€32,000–€48,000",
+      "experienced_eur": "€60,000–€100,000",
+      "source": "ICE Salary Survey 2024 / BLS 2024"
+    },
+    "try_it": [
+      "Build the strongest possible bridge from spaghetti and marshmallows — it's a classic civil engineering challenge",
+      "Watch 'Practical Engineering' on YouTube — incredibly well-explained infrastructure content",
+      "Visit a major construction site on an open day — many run them for students",
+      "Enter your school's engineering competition or Design and Technology project with a structural focus"
+    ],
+    "related_career_ids": ["mechanical-engineer", "electrician", "environmental-scientist"],
+    "tags": ["large-scale", "outdoor", "project-based"]
+  },
+  {
+    "id": "carpenter",
+    "title": "Carpenter",
+    "cluster": "trades-technical",
+    "emoji": "🪵",
+    "color": "#F4A261",
+    "one_liner": "Shape wood into structures and furniture that will last for generations",
+    "what_is_it": "Carpenters cut, shape, and install wooden structures — from roof frames and staircases to fitted furniture and window frames. It's a skilled craft that combines precision measurement, technical knowledge of materials, and practical problem-solving. Carpenters work on construction sites, in joinery workshops, and increasingly in bespoke furniture making and restoration.",
+    "day_in_the_life": "You're fitting a new staircase in a Victorian house renovation. You start by measuring the staircase opening carefully and calculating the exact dimensions of each tread and riser. You cut the components in the workshop, then spend the afternoon fitting them on site, ensuring everything is plumb and level. You finish by fitting the newel posts and handrail, taking pride in the craftsmanship.",
+    "interest_tags": ["technology", "creative"],
+    "skill_tags": ["technical", "physical", "detail_oriented"],
+    "routes_in": [
+      {
+        "label": "UK: Carpentry & Joinery Apprenticeship",
+        "description": "2–3 year apprenticeship with a contractor. You earn while training, attend college, and gain Level 2/3 NVQ qualifications.",
+        "years": "2–3 years"
+      },
+      {
+        "label": "EU: Vocational Training (Tischler / Menuisier)",
+        "description": "2–3 year vocational training programmes in Germany (Tischler), France (CAP Menuisier), or the Netherlands (Timmerman). High quality and well-regarded.",
+        "years": "2–3 years"
+      },
+      {
+        "label": "US: Carpentry Apprenticeship (United Brotherhood of Carpenters)",
+        "description": "4-year apprenticeship through the UBC, combining on-the-job training with classroom instruction. No student loans required.",
+        "years": "4 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$38,000–$50,000",
+      "experienced_usd": "$65,000–$90,000+",
+      "entry_eur": "€22,000–€32,000",
+      "experienced_eur": "€38,000–€60,000+",
+      "source": "CIOB Salary Survey 2024 / BLS 2024"
+    },
+    "try_it": [
+      "Take a beginner woodworking class at a local makerspace or community college",
+      "Watch 'Paul Sellers' on YouTube — a master craftsman who teaches hand-tool woodworking",
+      "Build a simple project: a wooden shelf, a birdbox, or a small stool",
+      "Visit a carpenter or joinery workshop and ask if you can have a look around"
+    ],
+    "related_career_ids": ["electrician", "civil-engineer", "mechanical-engineer"],
+    "tags": ["hands-on", "craft", "earn-while-learn"]
+  },
+  {
+    "id": "plumber",
+    "title": "Plumbing & Heating Engineer",
+    "cluster": "trades-technical",
+    "emoji": "🔧",
+    "color": "#F4A261",
+    "one_liner": "Install and maintain the water and heating systems every home and building depends on",
+    "what_is_it": "Plumbers and heating engineers install, maintain, and repair water, heating, and gas systems in homes and commercial buildings. With the global shift to heat pumps, solar thermal, and renewable heating systems, this trade is undergoing a green transformation. Qualified plumbers are consistently in short supply, making it one of the most reliably in-demand skilled trades.",
+    "day_in_the_life": "You start the day by replacing a failed boiler in a family's home — they've been without heating for two days. After draining the system and fitting the new unit, you test it and explain the controls to the homeowner. In the afternoon you're fitting a new bathroom suite — connecting pipework, installing the shower and toilet. You finish the day with a routine boiler service.",
+    "interest_tags": ["technology", "science"],
+    "skill_tags": ["technical", "physical", "problem_solving"],
+    "routes_in": [
+      {
+        "label": "UK: Plumbing Apprenticeship (Level 2/3 NVQ)",
+        "description": "A 3-year apprenticeship combining on-the-job training with college. Gas Safe registration required to work with gas appliances.",
+        "years": "3 years"
+      },
+      {
+        "label": "EU: Vocational Training (Sanitärinstallateur / Plombier)",
+        "description": "2–3 year dual-training programmes. Germany's SHK (Sanitär-Heizung-Klima) trade is well-paid and highly regarded.",
+        "years": "3 years"
+      },
+      {
+        "label": "US: Plumber Apprenticeship (UA)",
+        "description": "5-year United Association apprenticeship. Fully paid with progressive wage increases. Journeyman licence required after completion.",
+        "years": "5 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$42,000–$55,000",
+      "experienced_usd": "$70,000–$110,000+",
+      "entry_eur": "€24,000–€35,000",
+      "experienced_eur": "€42,000–€70,000+",
+      "source": "CIPHE Pay Survey 2024 / BLS 2024"
+    },
+    "try_it": [
+      "Watch 'The Plumbing Guy' on YouTube — he explains real-world plumbing problems in a relatable way",
+      "Look up plumbing apprenticeship opportunities in your area on the government apprenticeship website",
+      "Take apart and reassemble a tap or toilet cistern at home — with permission!",
+      "Research heat pump technology and the green heating transition — it's the future of this trade"
+    ],
+    "related_career_ids": ["electrician", "civil-engineer", "mechanical-engineer"],
+    "tags": ["earn-while-learn", "high-demand", "future-proof"]
+  },
+  {
+    "id": "environmental-scientist",
+    "title": "Environmental Scientist",
+    "cluster": "environment",
+    "emoji": "🌍",
+    "color": "#70C95E",
+    "one_liner": "Investigate environmental problems and develop solutions to protect our planet",
+    "what_is_it": "Environmental scientists study the natural world and the impact of human activity on it. You might monitor air and water quality, assess the environmental impact of development projects, advise on climate change policy, or investigate pollution incidents. Environmental science combines fieldwork, lab analysis, and data interpretation. It's a field driven by purpose — you're working to protect ecosystems and human health.",
+    "day_in_the_life": "You're conducting a water quality assessment for a river that runs through a proposed development site. You take water samples at multiple points, recording temperature, pH, and turbidity. Back in the lab, you analyse the samples for nitrates and phosphates. You write a report summarising your findings and recommendations for the planning committee. In the afternoon you attend a site meeting to discuss mitigation measures.",
+    "interest_tags": ["nature", "science"],
+    "skill_tags": ["detail_oriented", "problem_solving", "technical"],
+    "routes_in": [
+      {
+        "label": "University: Environmental Science Degree",
+        "description": "BSc in Environmental Science, Ecology, Geography (Physical), or a related field. Fieldwork and data analysis skills are essential.",
+        "years": "3–4 years",
+        "typical_subjects": ["Biology", "Chemistry", "Geography"]
+      },
+      {
+        "label": "EU: Environment / Naturwissenschaften Degree",
+        "description": "Strong environmental science and ecology programmes at Wageningen University (Netherlands), ETH Zurich, LMU Munich, and many more.",
+        "years": "3–5 years"
+      },
+      {
+        "label": "US: Environmental Science Degree + Internships",
+        "description": "BSc in Environmental Science, Ecology, or Earth Science. US EPA, NOAA, and state environmental agencies offer valuable internships.",
+        "years": "4 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$45,000–$60,000",
+      "experienced_usd": "$75,000–$110,000",
+      "entry_eur": "€26,000–€40,000",
+      "experienced_eur": "€45,000–€75,000",
+      "source": "Environmental Careers Organisation Salary Survey 2024 / BLS"
+    },
+    "try_it": [
+      "Monitor local air quality using PurpleAir community sensors — find one near you and track the data",
+      "Join a local wildlife group or conservation volunteer day",
+      "Follow Global Witness or Earthwatch on social media for real environmental science stories",
+      "Enter the Royal Geographical Society's Young Geographer of the Year competition"
+    ],
+    "related_career_ids": ["marine-biologist", "civil-engineer", "veterinarian"],
+    "tags": ["purpose-driven", "fieldwork", "science-heavy"]
+  },
+  {
+    "id": "marine-biologist",
+    "title": "Marine Biologist",
+    "cluster": "environment",
+    "emoji": "🐋",
+    "color": "#70C95E",
+    "one_liner": "Study ocean life and the ecosystems that cover 71% of our planet's surface",
+    "what_is_it": "Marine biologists study life in the ocean — from microscopic plankton to great whales. You might research coral reef ecology, track whale migration, study the impact of plastic pollution on fish populations, or investigate deep-sea creatures. Marine biology combines lab work, fieldwork (including diving), and data analysis. It's a competitive field, but one that drives critical conservation work.",
+    "day_in_the_life": "You're on a research vessel off the coast of Portugal. This morning you deploy underwater recording equipment to monitor cetacean vocalisations. In the afternoon you scuba dive to a survey site and collect samples of reef-building coral, recording the health of the colony on a slate. Back on the vessel, you process your samples and enter data into your monitoring database.",
+    "interest_tags": ["nature", "science"],
+    "skill_tags": ["detail_oriented", "physical", "technical"],
+    "routes_in": [
+      {
+        "label": "University: Marine Biology or Zoology Degree",
+        "description": "BSc in Marine Biology, Zoology, Ocean Sciences, or Biology with marine focus. PADI scuba certification is highly recommended.",
+        "years": "3–4 years",
+        "typical_subjects": ["Biology", "Chemistry", "Geography or Maths"]
+      },
+      {
+        "label": "EU: Ocean Sciences / Biologie Marine",
+        "description": "Strong programmes at Plymouth Marine Laboratory (UK), NIOZ (Netherlands), Brest (France), and Kiel (Germany).",
+        "years": "3–5 years"
+      },
+      {
+        "label": "US: Marine Science + Research Experience",
+        "description": "BS in Marine Biology or Oceanography. Volunteering at marine research stations (Woods Hole, Scripps) as an undergraduate is critical.",
+        "years": "4 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$40,000–$55,000",
+      "experienced_usd": "$65,000–$95,000",
+      "entry_eur": "€24,000–€36,000",
+      "experienced_eur": "€40,000–€70,000",
+      "source": "Society for Marine Mammalogy Survey 2024 / BLS"
+    },
+    "try_it": [
+      "Get your PADI Open Water scuba diving licence — some centres train from age 10",
+      "Participate in a citizen science project like Sharkwater or Big Blue Ocean Cleanup",
+      "Watch 'Our Planet II' and 'Blue Planet II' — David Attenborough at his best",
+      "Visit your nearest aquarium and ask about volunteering or education programmes"
+    ],
+    "related_career_ids": ["environmental-scientist", "veterinarian", "data-scientist"],
+    "tags": ["competitive", "outdoor", "fieldwork"]
+  },
+  {
+    "id": "landscape-architect",
+    "title": "Landscape Architect",
+    "cluster": "environment",
+    "emoji": "🌳",
+    "color": "#70C95E",
+    "one_liner": "Design outdoor spaces — from city parks and gardens to major public realm and ecological restoration",
+    "what_is_it": "Landscape architects design and plan outdoor environments at every scale — from private gardens and school grounds to urban parks, motorway corridors, and ecological restoration projects. You work with plants, landforms, water, and hard materials to create spaces that are beautiful, functional, and sustainable. The role combines creativity, ecology, and technical planning skills.",
+    "day_in_the_life": "You're working on a masterplan for a new park in a post-industrial area of a city. Today you review ecological survey results that will inform which habitats to create. You sketch planting plans for the wildflower meadow zone, then meet with the client council officers to discuss community consultation feedback. In the afternoon you work on AutoCAD drawings and prepare a presentation for next week's planning application.",
+    "interest_tags": ["nature", "creative", "science"],
+    "skill_tags": ["creativity", "detail_oriented", "technical"],
+    "routes_in": [
+      {
+        "label": "UK: Landscape Architecture Degree (LAA Accredited)",
+        "description": "BA or BLA in Landscape Architecture from accredited schools like Sheffield, Manchester, or Greenwich. Portfolio required.",
+        "years": "3–4 years",
+        "typical_subjects": ["Art & Design", "Geography", "Biology"]
+      },
+      {
+        "label": "EU: Landscape Architecture / Landschaftsarchitektur",
+        "description": "5-year integrated Dipl.-Ing. in Germany and Austria, or 3-year bachelor's in the Netherlands and Nordics. Strong practical traditions.",
+        "years": "3–5 years"
+      },
+      {
+        "label": "US: BLA or MLA",
+        "description": "Bachelor of Landscape Architecture (4-year) or Master of Landscape Architecture (3-year graduate programme). ASLA membership supports career development.",
+        "years": "4–5 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$45,000–$58,000",
+      "experienced_usd": "$75,000–$115,000",
+      "entry_eur": "€26,000–€38,000",
+      "experienced_eur": "€45,000–€75,000",
+      "source": "Landscape Institute Salary Survey 2024 / BLS"
+    },
+    "try_it": [
+      "Design a new garden layout for your own or a neighbour's outdoor space",
+      "Visit a famous designed landscape — Kew Gardens, Parc de la Villette, or Central Park",
+      "Follow 'Landezine' — a website showcasing landscape architecture projects worldwide",
+      "Study plants: learning to identify 20 common trees and shrubs is a great start"
+    ],
+    "related_career_ids": ["environmental-scientist", "civil-engineer", "graphic-designer"],
+    "tags": ["outdoor", "creative-technical", "portfolio-based"]
+  },
+  {
+    "id": "conservation-officer",
+    "title": "Conservation Officer",
+    "cluster": "environment",
+    "emoji": "🦊",
+    "color": "#70C95E",
+    "one_liner": "Protect and manage wildlife, habitats, and the natural heritage of the landscape",
+    "what_is_it": "Conservation officers manage and protect wildlife, habitats, and natural environments. You might work for a national park, wildlife trust, Natural England, RSPB, or local government. The role involves surveying wildlife populations, managing habitats (e.g. woodland, heathland, wetland), enforcing wildlife law, and engaging the public in conservation. It combines ecology, land management, and community outreach.",
+    "day_in_the_life": "You start early at a nature reserve to conduct a bird survey, noting species and counts in your field notebook. Mid-morning you meet with a local farmer to discuss agri-environment payments for creating wildflower strips around their fields. In the afternoon you lead a volunteer work party to clear invasive rhododendron from a woodland. You finish by updating your biodiversity monitoring database.",
+    "interest_tags": ["nature", "people", "science"],
+    "skill_tags": ["detail_oriented", "physical", "people_skills"],
+    "routes_in": [
+      {
+        "label": "UK: Ecology or Environmental Science Degree",
+        "description": "BSc in Ecology, Conservation Biology, or Environmental Science. Volunteering with wildlife trusts or RSPB during studies is essential.",
+        "years": "3 years",
+        "typical_subjects": ["Biology", "Geography", "Chemistry"]
+      },
+      {
+        "label": "EU: Nature Conservation / Naturschutz",
+        "description": "BSc in Nature Conservation or Applied Ecology. Strong programmes in Germany (HNE Eberswalde), Netherlands (Van Hall Larenstein), and Nordics.",
+        "years": "3–4 years"
+      },
+      {
+        "label": "Volunteering + Experience Route",
+        "description": "Many conservation officers start as volunteers with Wildlife Trusts, RSPB, or National Parks. Paid roles often require experience over formal qualifications.",
+        "years": "Ongoing"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$35,000–$48,000",
+      "experienced_usd": "$55,000–$80,000",
+      "entry_eur": "€22,000–€33,000",
+      "experienced_eur": "€34,000–€55,000",
+      "source": "Wildlife Trusts Pay Survey 2024 / NPS Data"
+    },
+    "try_it": [
+      "Join the RSPB, Wildlife Trust, or Scouts' nature activity groups",
+      "Do a Big Garden Birdwatch or BioBlitz — real citizen science that conservation relies on",
+      "Learn to identify 10 native plant species in your area using a field guide or iNaturalist app",
+      "Volunteer for a local nature reserve weekend work party"
+    ],
+    "related_career_ids": ["environmental-scientist", "marine-biologist", "landscape-architect"],
+    "tags": ["outdoor", "fieldwork", "purpose-driven"]
+  },
+  {
+    "id": "lawyer",
+    "title": "Lawyer (Solicitor / Barrister)",
+    "cluster": "law-public-service",
+    "emoji": "⚖️",
+    "color": "#9B72CF",
+    "one_liner": "Advise, advocate, and argue — using the law to protect rights and resolve disputes",
+    "what_is_it": "Lawyers advise clients on legal matters and represent them in courts or negotiations. In the UK, solicitors advise and deal directly with clients, while barristers advocate in court. In the US and EU, attorneys/advocates typically do both. Lawyers specialise in areas like commercial law, criminal law, family law, human rights, intellectual property, or environmental law. It's an intellectually demanding career with real-world impact.",
+    "day_in_the_life": "You're a trainee solicitor at a commercial law firm. This morning you draft an NDA for a client's new business partnership and attend a client meeting about an acquisition. In the afternoon you research case law for a contract dispute your supervising partner is handling, then review and summarise documents disclosed in litigation. You write a briefing note summarising your research for the partner.",
+    "interest_tags": ["language", "people", "business"],
+    "skill_tags": ["communication", "detail_oriented", "problem_solving"],
+    "routes_in": [
+      {
+        "label": "UK: Law Degree + SQE/LPC (Solicitor)",
+        "description": "LLB Law degree (3 years), then Solicitors Qualifying Examination (SQE) and 2 years qualifying work experience. Or non-law degree + LPC.",
+        "years": "5–6 years"
+      },
+      {
+        "label": "EU: Law Degree (Staatsexamen / Licence en Droit)",
+        "description": "Germany requires two state examinations (7–8 years total). France has a 4-year licence + 2-year masters. Netherlands has 3-year bachelor + 1-year master.",
+        "years": "4–8 years"
+      },
+      {
+        "label": "US: Pre-law Undergrad + JD (Juris Doctor)",
+        "description": "4-year undergraduate degree (any subject), LSAT exam, then 3-year JD programme. Bar exam required after graduation.",
+        "years": "7 years"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$70,000–$100,000",
+      "experienced_usd": "$150,000–$500,000+",
+      "entry_eur": "€30,000–€55,000",
+      "experienced_eur": "€70,000–$250,000+",
+      "source": "Law Society Salary Survey 2024 / NALP 2024"
+    },
+    "try_it": [
+      "Sign up for a UK Supreme Court tour or visit your local magistrates' court — both are free and open to the public",
+      "Compete in a mock trial or moot competition at school",
+      "Read 'To Kill a Mockingbird' and 'The Firm' for fictional but illuminating portraits of law",
+      "Explore the Streetlaw Programme (UK) or Debate Mate for accessible legal education"
+    ],
+    "related_career_ids": ["journalist", "financial-analyst", "diplomat"],
+    "tags": ["language-driven", "high-earning", "long-training"]
+  },
+  {
+    "id": "police-officer",
+    "title": "Police Officer",
+    "cluster": "law-public-service",
+    "emoji": "👮",
+    "color": "#9B72CF",
+    "one_liner": "Protect communities, investigate crime, and uphold justice on the front line",
+    "what_is_it": "Police officers protect life and property, maintain public order, prevent and investigate crime, and respond to emergencies. The role is enormously varied — from neighbourhood policing and criminal investigation to cybercrime, counter-terrorism, and detective work. It's physically and emotionally demanding, but offers a clear sense of purpose and a structured career with real advancement opportunities.",
+    "day_in_the_life": "You're a response officer on an early shift. You start with a briefing from your sergeant about local priorities. Your first call is a report of a domestic dispute — you attend with a colleague, assess the situation, make an arrest, and take a witness statement. Later you deal with a road accident, then return to the station to complete paperwork. You end the shift helping a colleague execute a search warrant.",
+    "interest_tags": ["people", "business", "nature"],
+    "skill_tags": ["communication", "leadership", "problem_solving"],
+    "routes_in": [
+      {
+        "label": "UK: Police Constable Degree Apprenticeship (PCDA)",
+        "description": "Apply directly to a police force. The PCDA means you earn while completing a police-funded degree. No student loans. Must be 18+.",
+        "years": "3 years"
+      },
+      {
+        "label": "EU: Police Academy",
+        "description": "Most EU countries select officers through a national police academy (e.g. École Nationale de Police in France, Polizeiakademie in Germany). Entry from 18.",
+        "years": "2–3 years"
+      },
+      {
+        "label": "US: Police Academy + Civil Service Exam",
+        "description": "Complete high school, pass a civil service exam, then complete a 6-month police academy training programme. Age requirement typically 21+.",
+        "years": "6 months to 1 year"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$45,000–$60,000",
+      "experienced_usd": "$65,000–$95,000",
+      "entry_eur": "€24,000–€38,000",
+      "experienced_eur": "€38,000–€60,000",
+      "source": "Police Federation Pay Report 2024 / BLS 2024"
+    },
+    "try_it": [
+      "Join the Police Cadets if there's a unit near you — the Metropolitan Police run a great scheme",
+      "Research the different police career streams: detective, roads policing, cybercrime, firearms, etc.",
+      "Talk to a police officer — many forces run school engagement sessions",
+      "Volunteer as a Special Constable when you're old enough (18 in the UK)"
+    ],
+    "related_career_ids": ["lawyer", "social-worker", "journalist"],
+    "tags": ["vocation", "community", "structured-career"]
+  },
+  {
+    "id": "cybersecurity-analyst",
+    "title": "Cybersecurity Analyst",
+    "cluster": "law-public-service",
+    "emoji": "🔐",
+    "color": "#9B72CF",
+    "one_liner": "Defend organisations from hackers, data breaches, and digital threats",
+    "what_is_it": "Cybersecurity analysts protect computer systems and networks from cyberattacks. You might monitor for threats, investigate security incidents, test systems for vulnerabilities (ethical hacking / penetration testing), or develop security policies. As the world becomes more digital, cybersecurity is one of the most critical and fastest-growing career fields globally. It combines technical expertise with problem-solving and detective work.",
+    "day_in_the_life": "Your monitoring system flags an unusual login pattern at 8am — someone is accessing accounts from three different countries simultaneously. You investigate the logs, identify the attack pattern, block the suspicious IPs, and reset the compromised accounts. You write up an incident report and brief the IT manager. In the afternoon you conduct a scheduled vulnerability scan of the company's web servers and document your findings.",
+    "interest_tags": ["technology", "science", "business"],
+    "skill_tags": ["problem_solving", "technical", "detail_oriented"],
+    "routes_in": [
+      {
+        "label": "UK: Cybersecurity Degree or Computer Science + GCSE",
+        "description": "BSc in Cybersecurity, Computer Science, or Digital Forensics. Industry certifications (CompTIA Security+, CEH) are equally important.",
+        "years": "3–4 years"
+      },
+      {
+        "label": "EU: IT Security Degree / Informatik",
+        "description": "BSc in IT Security, Computer Science (with security specialisation), or Digital Forensics. Strong programmes in Germany, Netherlands, and Estonia.",
+        "years": "3–5 years"
+      },
+      {
+        "label": "US: CS Degree or Certifications Route",
+        "description": "BS in Computer Science, IT, or Cybersecurity, OR self-taught with CompTIA Security+, CEH, and OSCP certifications. Both routes lead to jobs.",
+        "years": "2–4 years"
+      },
+      {
+        "label": "Self-study + CTF Competitions",
+        "description": "Many cybersecurity professionals are largely self-taught. Platforms like TryHackMe, HackTheBox, and Capture the Flag competitions build real skills.",
+        "years": "6–18 months"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$65,000–$85,000",
+      "experienced_usd": "$110,000–$180,000",
+      "entry_eur": "€32,000–€50,000",
+      "experienced_eur": "€65,000–$120,000",
+      "source": "(ISC)² Cybersecurity Workforce Study 2024 / Glassdoor"
+    },
+    "try_it": [
+      "Create a free account on TryHackMe and try their beginner cybersecurity learning paths",
+      "Watch 'The PC Security Channel' on YouTube for accessible security explainers",
+      "Explore Capture The Flag competitions on platforms like picoCTF — designed for beginners",
+      "Set up a Raspberry Pi and experiment with networking and basic security configurations"
+    ],
+    "related_career_ids": ["software-engineer", "data-scientist", "police-officer"],
+    "tags": ["remote-friendly", "high-demand", "technical"]
+  },
+  {
+    "id": "diplomat",
+    "title": "Diplomat / Foreign Service Officer",
+    "cluster": "law-public-service",
+    "emoji": "🌐",
+    "color": "#9B72CF",
+    "one_liner": "Represent your country abroad, build international relationships, and shape global affairs",
+    "what_is_it": "Diplomats represent their country's interests overseas. You might negotiate trade agreements, manage consular services for citizens abroad, analyse political developments, or work on international development and human rights. Diplomacy requires deep knowledge of international relations, strong communication skills, and the ability to work across cultures. It's competitive to enter — but extraordinarily interesting work.",
+    "day_in_the_life": "You're a Second Secretary at a British Embassy in Southeast Asia. This morning you attend a meeting at the host government's trade ministry to discuss a bilateral investment agreement. You write a telegram back to London summarising the discussions and your analysis of the local political context. In the afternoon you meet with a local NGO working on press freedom, then host a small reception for visiting British entrepreneurs.",
+    "interest_tags": ["language", "people", "business"],
+    "skill_tags": ["communication", "people_skills", "leadership"],
+    "routes_in": [
+      {
+        "label": "UK: Fast Stream (Civil Service)",
+        "description": "Highly competitive graduate scheme. Any degree subject. Requires passing the Civil Service online tests, a centre assessment, and final board interview.",
+        "years": "4–5 years (degree + selection)"
+      },
+      {
+        "label": "EU: European External Action Service (EEAS)",
+        "description": "Open competitions for EU nationals. Or work via national foreign ministries (Auswärtiges Amt, Quai d'Orsay, MFA Netherlands). Often requires a master's degree.",
+        "years": "5–7 years"
+      },
+      {
+        "label": "US: Foreign Service Officer (State Department)",
+        "description": "The FSOT (Foreign Service Officer Test) is open to US citizens. Degree in any subject, strong second language, and pass 5 stages of selection.",
+        "years": "4–6 years (degree + selection)"
+      }
+    ],
+    "salary": {
+      "entry_usd": "$50,000–$70,000",
+      "experienced_usd": "$90,000–$140,000",
+      "entry_eur": "€30,000–€50,000",
+      "experienced_eur": "€60,000–€110,000",
+      "source": "UK Civil Service Pay 2024 / US State Department 2024"
+    },
+    "try_it": [
+      "Join your school's Model United Nations (MUN) programme — the closest thing to real diplomacy",
+      "Learn a second language to conversational level — it's the most useful skill you can have",
+      "Read 'The Spy and the Traitor' by Ben Macintyre for a gripping look at Cold War diplomacy",
+      "Follow foreign affairs coverage in The Economist or Foreign Policy magazine"
+    ],
+    "related_career_ids": ["lawyer", "journalist", "teacher"],
+    "tags": ["global", "language-driven", "competitive"]
+  }
+]
