@@ -19,7 +19,6 @@ export default function WelcomeScreen() {
         <View style={styles.featureRow}>
           <FeaturePill emoji="⚡" text="5 min quiz" />
           <FeaturePill emoji="🎯" text="Personalised" />
-          <FeaturePill emoji="🌍" text="EU + US" />
         </View>
 
         <View style={styles.bottomSection}>
