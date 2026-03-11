@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import React, { useState, useRef } from 'react';
+import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import Animated, {
@@ -7,7 +7,7 @@ import Animated, {
   useAnimatedStyle,
   withSpring,
 } from 'react-native-reanimated';
-import { SwipeCardDeck } from '@/components/cards/SwipeCardDeck';
+import { SwipeCardDeck, SwipeCardDeckRef } from '@/components/cards/SwipeCardDeck';
 import { ProgressDots } from '@/components/ui/ProgressDots';
 import { SKILL_CARDS } from '@/constants/quizCards';
 import { InterestScores, SkillScores, InterestDomain, SkillDomain } from '@/types';
@@ -17,6 +17,7 @@ import { colours, fontSize, radii, spacing } from '@/constants/theme';
 export default function SkillsQuizScreen() {
   const [showComplete, setShowComplete] = useState(false);
   const [currentIndex] = useState(0);
+  const deckRef = useRef<SwipeCardDeckRef>(null);
   const scale = useSharedValue(0);
 
   const celebrateStyle = useAnimatedStyle(() => ({
@@ -53,12 +54,16 @@ export default function SkillsQuizScreen() {
       </View>
 
       <View style={styles.deckContainer}>
-        <SwipeCardDeck cards={SKILL_CARDS} onComplete={handleComplete} />
+        <SwipeCardDeck ref={deckRef} cards={SKILL_CARDS} onComplete={handleComplete} />
       </View>
 
       <View style={styles.hints}>
-        <Text style={styles.hintText}>👈 Not really</Text>
-        <Text style={styles.hintText}>Definitely me 👉</Text>
+        <TouchableOpacity onPress={() => deckRef.current?.swipeLeft()}>
+          <Text style={styles.hintText}>👈 Not really</Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => deckRef.current?.swipeRight()}>
+          <Text style={styles.hintText}>Definitely me 👉</Text>
+        </TouchableOpacity>
       </View>
 
       {showComplete && (

@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import React, { useState, useRef } from 'react';
+import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
-import { SwipeCardDeck } from '@/components/cards/SwipeCardDeck';
+import { SwipeCardDeck, SwipeCardDeckRef } from '@/components/cards/SwipeCardDeck';
 import { ProgressDots } from '@/components/ui/ProgressDots';
 import { INTEREST_CARDS } from '@/constants/quizCards';
 import { InterestScores, SkillScores, InterestDomain, SkillDomain } from '@/types';
@@ -11,6 +11,7 @@ import { colours, fontSize, spacing } from '@/constants/theme';
 
 export default function InterestQuizScreen() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const deckRef = useRef<SwipeCardDeckRef>(null);
 
   function handleComplete(
     interestScores: InterestScores,
@@ -38,14 +39,19 @@ export default function InterestQuizScreen() {
 
       <View style={styles.deckContainer}>
         <SwipeCardDeck
+          ref={deckRef}
           cards={INTEREST_CARDS}
           onComplete={handleComplete}
         />
       </View>
 
       <View style={styles.hints}>
-        <Text style={styles.hintText}>👈 Not me</Text>
-        <Text style={styles.hintText}>That's me 👉</Text>
+        <TouchableOpacity onPress={() => deckRef.current?.swipeLeft()}>
+          <Text style={styles.hintText}>👈 Not me</Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => deckRef.current?.swipeRight()}>
+          <Text style={styles.hintText}>That's me 👉</Text>
+        </TouchableOpacity>
       </View>
     </SafeAreaView>
   );
