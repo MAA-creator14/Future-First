@@ -35,12 +35,17 @@ const { width: SCREEN_WIDTH } = Dimensions.get('window');
 export const SwipeCardDeck = forwardRef<SwipeCardDeckRef, Props>(
   function SwipeCardDeck({ cards, onComplete }, ref) {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [interestScores, setInterestScores] = useState<InterestScores>({});
-    const [skillScores, setSkillScores] = useState<SkillScores>({});
-    const [liked_interests, setLikedInterests] = useState<InterestDomain[]>([]);
-    const [liked_skills, setLikedSkills] = useState<SkillDomain[]>([]);
-    const [disliked_interests, setDislikedInterests] = useState<InterestDomain[]>([]);
-    const [disliked_skills, setDislikedSkills] = useState<SkillDomain[]>([]);
+
+    // Use refs to accumulate scores synchronously.
+    // Calling setState inside a setState updater violates React's rules —
+    // updaters must be pure and React may skip or repeat them in concurrent
+    // mode. Refs give us reliable synchronous accumulation without that risk.
+    const interestScoresRef = useRef<InterestScores>({});
+    const skillScoresRef = useRef<SkillScores>({});
+    const likedInterestsRef = useRef<InterestDomain[]>([]);
+    const likedSkillsRef = useRef<SkillDomain[]>([]);
+    const dislikedInterestsRef = useRef<InterestDomain[]>([]);
+    const dislikedSkillsRef = useRef<SkillDomain[]>([]);
 
     const topCardRef = useRef<SwipeCardRef>(null);
 
@@ -57,56 +62,47 @@ export const SwipeCardDeck = forwardRef<SwipeCardDeckRef, Props>(
         if (card.type === 'interest') {
           const cat = card.category as InterestDomain;
           if (swipedRight) {
-            setInterestScores((prev) => ({
+            const prev = interestScoresRef.current;
+            interestScoresRef.current = {
               ...prev,
               [cat]: Math.min((prev[cat] ?? 0) + SWIPE_INCREMENT, MAX_SCORE),
-            }));
-            setLikedInterests((prev) =>
-              prev.includes(cat) ? prev : [...prev, cat]
-            );
+            };
+            if (!likedInterestsRef.current.includes(cat)) {
+              likedInterestsRef.current = [...likedInterestsRef.current, cat];
+            }
           } else {
-            setDislikedInterests((prev) =>
-              prev.includes(cat) ? prev : [...prev, cat]
-            );
+            if (!dislikedInterestsRef.current.includes(cat)) {
+              dislikedInterestsRef.current = [...dislikedInterestsRef.current, cat];
+            }
           }
         } else {
           const cat = card.category as SkillDomain;
           if (swipedRight) {
-            setSkillScores((prev) => ({
+            const prev = skillScoresRef.current;
+            skillScoresRef.current = {
               ...prev,
               [cat]: Math.min((prev[cat] ?? 0) + SWIPE_INCREMENT, MAX_SCORE),
-            }));
-            setLikedSkills((prev) =>
-              prev.includes(cat) ? prev : [...prev, cat]
-            );
+            };
+            if (!likedSkillsRef.current.includes(cat)) {
+              likedSkillsRef.current = [...likedSkillsRef.current, cat];
+            }
           } else {
-            setDislikedSkills((prev) =>
-              prev.includes(cat) ? prev : [...prev, cat]
-            );
+            if (!dislikedSkillsRef.current.includes(cat)) {
+              dislikedSkillsRef.current = [...dislikedSkillsRef.current, cat];
+            }
           }
         }
 
         const nextIndex = currentIndex + 1;
         if (nextIndex >= cards.length) {
-          setInterestScores((latestInterest) => {
-            setSkillScores((latestSkill) => {
-              setLikedInterests((li) => {
-                setLikedSkills((ls) => {
-                  setDislikedInterests((di) => {
-                    setDislikedSkills((ds) => {
-                      onComplete(latestInterest, latestSkill, li, ls, di, ds);
-                      return ds;
-                    });
-                    return di;
-                  });
-                  return ls;
-                });
-                return li;
-              });
-              return latestSkill;
-            });
-            return latestInterest;
-          });
+          onComplete(
+            interestScoresRef.current,
+            skillScoresRef.current,
+            likedInterestsRef.current,
+            likedSkillsRef.current,
+            dislikedInterestsRef.current,
+            dislikedSkillsRef.current
+          );
         }
         setCurrentIndex(nextIndex);
       },

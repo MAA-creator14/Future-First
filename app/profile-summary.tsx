@@ -2,7 +2,8 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
-import { getProfile, saveProfile } from '@/storage/profile';
+import { saveProfile } from '@/storage/profile';
+import { useProfile } from '@/hooks/useProfile';
 import { InterestDomain } from '@/types';
 import { useCareers } from '@/hooks/useCareers';
 import { MatchBar } from '@/components/ui/MatchBar';
@@ -32,7 +33,11 @@ const INTEREST_COLOURS: Record<InterestDomain, string> = {
 };
 
 export default function ProfileSummaryScreen() {
-  const profile = getProfile();
+  const [profile] = useProfile();
+  console.log('[ProfileSummary] profile at render:', JSON.stringify({
+    interestScores: profile.interestScores,
+    skillScores: profile.skillScores,
+  }, null, 2));
   const rankedCareers = useCareers(profile);
   const top5Careers = rankedCareers.slice(0, 5);
 
